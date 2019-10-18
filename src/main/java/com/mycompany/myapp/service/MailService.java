@@ -90,6 +90,7 @@ public class MailService {
     public void sendActivationEmail(User user) {
         log.debug("Sending activation email to '{}'", user.getEmail());
         log.debug("hi");
+        log.debug("zhu");
         sendEmailFromTemplate(user, "mail/activationEmail", "email.activation.title");
     }
 
