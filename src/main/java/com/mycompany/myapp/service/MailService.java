@@ -89,7 +89,8 @@ public class MailService {
     @Async
     public void sendActivationEmail(User user) {
         log.debug("Sending activation email to '{}'", user.getEmail());
-        log.debug("test3");
+        log.debug("hi");
+        log.debug("zhu");
         sendEmailFromTemplate(user, "mail/activationEmail", "email.activation.title");
     }
 
